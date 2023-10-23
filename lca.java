@@ -15,6 +15,7 @@ TreeNode left =lowestCommonAncestor(root.left,p,q);     //if p and q is less tha
 TreeNode right = lowestCommonAncestor(root.right,p,q); // if p and q is more than root
 
         if(left != null && right != null) return root;
+        
         return left == null? right: left;
     }
 }
