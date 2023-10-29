@@ -18,8 +18,9 @@ public class product_array_except_self {
     }
 
     int[] ans = new int[nums.length];
-    
+
     for (int i = 0; i < nums.length; i++) {
+      
       ans[i] = left[i] * right[i];
     }
 
