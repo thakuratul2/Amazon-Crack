@@ -5,6 +5,7 @@ public class first_positive_missing {
     
             for(int i = 0;i<n;i++){
                 if(nums[i] <= 0 || nums[i] > n){
+                    
                     nums[i] = n + 1;
                 }
             }
