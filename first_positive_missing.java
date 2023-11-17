@@ -11,6 +11,7 @@ public class first_positive_missing {
             }
             //convert here to negative number
             for(int i = 0;i<n;i++){
+                
                 int index = Math.abs(nums[i]);
     
                 if(index > n) 
