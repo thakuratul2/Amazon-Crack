@@ -15,6 +15,7 @@ public class first_positive_missing {
                 int index = Math.abs(nums[i]);
     
                 if(index > n) 
+                
                 continue;
                 index--;
                 if(nums[index] > 0){
