@@ -19,6 +19,7 @@ public class first_positive_missing {
                 continue;
                 index--;
                 if(nums[index] > 0){
+                    
                     nums[index] = -nums[index];
                 }
             }
